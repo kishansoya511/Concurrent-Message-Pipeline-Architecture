@@ -1,5 +1,3 @@
-# Concurrent-Message-Pipeline-Architecture
-A high-performance producer-consumer message pipeline in C, evolving from a POSIX thread-based queue (mutexes/condition variables) to a dual-process architecture with System V shared memory and semaphore synchronization.
 # Concurrent Message Pipeline
 
 A high-performance, multithreaded message queue system in C, built around the classic producer-consumer problem. The project evolves in two stages: a single-process design using POSIX threads, mutexes, and condition variables, followed by a distributed dual-process architecture using System V shared memory and semaphore-based IPC.
